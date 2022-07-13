@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.Cover{
+    display: flex;
+}
+.CoverSide{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.CoverTitle{
+    font-size: 50px;
+    color: rgb(124, 105, 105);
+}
+.CoverInfo{
+    font-size: 20px;
+    text-align: justify;
+    color: silver;
+}
+.hls{
+    color: cadetblue;
+}
+.CoverSide a{
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    background-image: linear-gradient(to right, orange , tomato);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(255, 99, 71, 0.628), 0 6px 20px 0 rgba(255, 166, 0, 0.628)
+}
+
+.CoverSide img{
+    width: 100%;
+}
