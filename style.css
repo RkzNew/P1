@@ -7,11 +7,12 @@ body{
     display: flex;
 }
 .CoverSide{
+    margin-top: 3%;
     margin-right: 5%;
     margin-left: 5%;
 }
 .CoverTitle{
-    font-size: 50px;
+    font-size: 64px;
     color: rgb(124, 105, 105);
 }
 .CoverInfo{
@@ -22,16 +23,91 @@ body{
 .hls{
     color: cadetblue;
 }
-.CoverSide a{
+.CoverLink{
     color: white;
-    padding: 20px 30px;
+    padding: 25px 45px;
     text-decoration: none;
     font-size: 18px;
     background-image: linear-gradient(to right, orange , tomato);
-    border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(255, 99, 71, 0.628), 0 6px 20px 0 rgba(255, 166, 0, 0.628)
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(255, 166, 0, 0.628) , 0 6px 20px 0  rgba(255, 99, 71, 0.628)
 }
 
 .CoverSide img{
     width: 100%;
+}
+#cs{
+    margin-left: 0;
+}
+#ccs{
+    margin-right: 0;
+}
+
+.Mid{
+    margin-top: 8%;
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MidSide img{
+    width: 100%;
+   
+}
+.MidSide{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.MidTitle{
+    font-size: 50px;
+    color: rgb(124, 105, 105);
+}
+
+
+#mms{
+   margin-right: 12%;
+}
+
+.MidInfo{
+    font-size: 22px;
+    text-align: justify;
+}
+.Res{
+    margin-top: 5%;
+}
+.Res h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(124, 105, 105);
+}
+
+.ResInfo{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.581);
+    font-size: 22px;
+}
+.ResS{
+    display: flex;
+    margin-top: 2%;
+}
+.ResSide h2{
+ font-size: 50px;
+ font-weight: bold;
+}
+
+.ResSide{
+    margin: 0 3%;
+    width: 80%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 4%;
+    padding: 40px 50px;
+}
+
+.ResSide img{
+    width: 100%;
+   
 }
